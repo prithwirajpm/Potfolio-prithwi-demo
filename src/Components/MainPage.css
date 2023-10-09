@@ -1,0 +1,47 @@
+.dark-mode {
+  background: radial-gradient(circle at 1.8% 4.8%, rgb(17, 23, 58) 0%, rgb(58, 85, 148) 90%);
+    color: white;
+  }
+  
+  .light-mode {
+    background-color: white;
+    color: black;
+  }
+
+   a{
+    color: white;
+  }
+
+  nav,
+.darklink {
+  display: flex;
+}
+
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+}
+
+.darklink {
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+.darklink a {
+  color: white;
+  text-decoration: none;
+  text-decoration-color: white;
+}
+.darklink a:hover {
+  color: grey;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(181, 181, 181);
+}
+.darkP{
+  color: white;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
